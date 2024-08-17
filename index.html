@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nama Lengkap</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Nama</h1>
+
+        <ul class="list-nav">
+          <li>
+            <a onclick="handleContentClick(1)">HOME</a>
+          </li>
+          <li>
+            <a onclick="handleContentClick(2)">ABOUT ME</a>
+          </li>
+          <li>
+            <a onclick="handleContentClick(3)">SKILLS</a>
+          </li>
+          <li>
+            <a onclick="handleContentClick(4)">ACTIVITIES</a>
+          </li>
+        </ul>
+
+        <i class="bx bx-list-ul burger-bar"></i>
+        <ul class="list-nav-mobile">
+          <li>
+            <a onclick="handleContentClick(1)">HOME</a>
+          </li>
+          <li>
+            <a onclick="handleContentClick(2)">ABOUT ME</a>
+          </li>
+          <li>
+            <a onclick="handleContentClick(3)">SKILLS</a>
+          </li>
+          <li>
+            <a onclick="handleContentClick(4)">ACTIVITIES</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="content1" class="home">
+        <!-- Bagian text (kiri) -->
+        <div class="home-content">
+          <h3>Hello, My Name is</h3>
+          <h1>Nama Lengkap</h1>
+          <h3>I am <span class="home-span-text"></span></h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+            explicabo ab omnis libero doloremque perspiciatis, cum tenetur nulla
+            fugiat rem unde quisquam tempora obcaecati provident hic distinctio.
+            Nobis molestiae ullam laudantium illum nemo obcaecati, qui dolorem
+            voluptate deleniti a, voluptas nihil placeat officia, commodi
+            assumenda fugit excepturi quod maxime ea?
+          </p>
+
+          <div class="home-content-social">
+            <a href="https://www.instagram.com/muh.adnan_putra" target="_blank"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="https://github.com/adnanamiruddin" target="_blank"
+              ><i class="bx bxl-github"></i
+            ></a>
+          </div>
+          <a
+            href="https://wa.me/+6281245255702"
+            target="_blank"
+            class="button-more-about"
+            >More About Me</a
+          >
+        </div>
+
+        <!-- Bagian gambar (kanan) -->
+        <div class="home-image">
+          <img src="images/home.png" alt="Home Image" />
+        </div>
+      </section>
+
+      <section class="about">
+        <h2 id="content2" class="section-title">About <span>Me</span></h2>
+
+        <div class="about-img">
+          <img src="images/about.png" alt="About" />
+        </div>
+
+        <div class="about-text">
+          <h3>Web Developer Enthusiastic</h3>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+            quae.
+            <br />
+            <br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores in,
+            rerum natus consequuntur debitis veniam sunt deleniti velit autem
+            perspiciatis. A ducimus itaque assumenda sit quam facilis,
+            voluptates natus quaerat sunt dolorem reiciendis sequi et magni
+            eaque id, praesentium error perspiciatis atque modi, repudiandae
+            quas aspernatur consectetur! Hic, natus cupiditate.
+          </p>
+          <a
+            href="https://wa.me/+6281245255702"
+            target="_blank"
+            class="button-more-about"
+            >More About Me</a
+          >
+        </div>
+      </section>
+
+      <section class="skills">
+        <h2 id="content3" class="section-title">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+          <div>
+            <i class="bx bxl-python"></i>
+            <h3>Python</h3>
+            <p>
+              Python adalah bahasa pemrograman yang mudah dipelajari dan
+              digunakan, dengan sintaks sederhana dan pustaka yang luas, cocok
+              untuk berbagai aplikasi seperti pengembangan web, data science,
+              dan otomatisasi.
+            </p>
+            <a href="https://www.python.org/" target="_blank">More</a>
+          </div>
+
+          <div>
+            <i class="bx bxl-java"></i>
+            <h3>Java</h3>
+            <p>
+              Java adalah bahasa pemrograman berorientasi objek yang kuat dan
+              portabel, terkenal dengan kemampuan "write once, run anywhere,"
+              sehingga cocok untuk pengembangan aplikasi lintas platform.
+            </p>
+            <a href="https://www.java.com/en/" target="_blank">More</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="activities">
+        <h2 id="content4" class="section-title">My <span>Activities</span></h2>
+
+        <div class="activities-container">
+          <div>
+            <img src="images/example-project.png" alt="My Project" />
+            <div class="layer">
+              <h5>My Project 1</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Necessitatibus hic cumque quis dolor quos saepe.
+              </p>
+              <a href="https://noxflix.vercel.app/" target="_blank"
+                ><i class="bx bx-link-external"></i
+              ></a>
+            </div>
+          </div>
+
+          <div>
+            <img src="images/example-project.png" alt="My Project" />
+            <div class="layer">
+              <h5>My Project 2</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque repellendus numquam reprehenderit impedit quo. Ab.
+              </p>
+              <a href="https://noxflix.vercel.app/" target="_blank"
+                ><i class="bx bx-link-external"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p><i class="bx bx-copyright"></i> Copyright 2024 Nama Lengkap</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
